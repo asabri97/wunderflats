@@ -1,4 +1,4 @@
-`# Wunderflats Frontend Coding Challenge
+## Wunderflats Frontend Coding Challenge
 
 Welcome to the Wunderflats Coding Challenge for Frontend Developers. Please read the instructions in this README carefully before starting.
 
@@ -53,12 +53,11 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine. You
 ```sh
 
 node -v
-
-and
+```
 
 ```sh
-
-`npm -v`
+npm -v
+```
 
 If you don't have Node.js installed, you can download and install it from [here](https://nodejs.org/).
 
@@ -66,31 +65,31 @@ If you don't have Node.js installed, you can download and install it from [here]
 
 1\. **Clone the repository:**
 
-sh
 
-`git clone <repository-url>`
+```sh
+git clone <https://github.com/asabri97/wunderflats>
+```
 
-Replace `<repository-url>` with the URL of the repository.
 
 2\. **Navigate into the project directory:**
 
-sh
-
-`cd wunderflats`
+```sh
+cd wunderflats
+```
 
 3\. **Install the dependencies:**
 
-sh
-
-`npm install`
+```sh
+npm install
+```
 
 ### Running the Application
 
 After installing the dependencies, you can start the development server by running:
 
-sh
-
-`npm start`
+```sh
+npm start
+```
 
 This will start the application and open it in your default web browser. If it doesn't open automatically, you can navigate to http://localhost:3000 in your browser.
 
@@ -98,19 +97,12 @@ This will start the application and open it in your default web browser. If it d
 
 To create a production build of the application, you can run:
 
-sh
-
-`npm run build`
+```sh
+npm run build
+```
 
 This will create an optimized build of the application in the `build` directory.
 
-*  *  *  *  *
-
-Thanks for taking the time to take part in our frontend interview process.
-
-Good luck with the coding challenge. We look forward to seeing your solutions!
-
-*  *  *  *  *
 
 Approach
 
