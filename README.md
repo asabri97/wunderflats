@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Wunderflats Frontend Coding Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Wunderflats Coding Challenge for Frontend Developers. Please read the instructions in this README carefully before starting.
 
-## Available Scripts
+## Challenge: Simple React Application
 
-In the project directory, you can run:
+![A screenshot of the mobile and desktop designs](./design@2x.png)
 
-### `npm start`
+We would like you to build a simple React app that is similar to our [Search Results Page](https://wunderflats.com/en/furnished-apartments/berlin).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Please build upon the barebones React application which was scaffolded with [create-react-app](https://github.com/facebook/create-react-app). You can find it in the `react-app` folder in this repository.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To query the data for the app, please use the `GET https://wunderflats-frontend-challenge-api.glitch.me` endpoint. You can find documentation for this endpoint in the [API.md file](./API.md) in case you need it.
 
-### `npm test`
+🚨 The endpoint will randomly return errors (5% chance), make sure to handle them correctly !
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+When an error happens, display an error message with a button to retry the request.
+💡 The listings price is returned in cents.
 
-### `npm run build`
+💡 You can find the content of the `/listings` GET request in `react-app/src/data/listings.json`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can find the design and all relevant measurements, assets and notes in the [Figma file](./design.fig). This file can viewed with [Figma](https://www.figma.com/).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Please write about your approach and anything that you would like to share with us regarding your work in the [README.md](./react-app/src/README.md) file at the root of the `react-app` folder.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### What we're looking for
 
-### `npm run eject`
+- **Good code.** Code that works reliably and is easy to understand.
+- **Correct implementation.** Make sure the [design](./design.fig) is implemented correctly and please follow the sticky note in the design file.
+- **Frontend expertise.** Show us that you know how to use React effectively and don't neglect the HTML/CSS part. Think about different devices, their screen sizes, input methods, network conditions. Think about how impaired users and search engines might find the page accessible.
+- **Build your components from scratch.** Please do not use any third-party components for this project.
+- **Brief documentation.** Please edit `react-app/README.md` and briefly document your approach.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### What we're not looking for
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Don't worry about old browsers.** You can use modern features like CSS Grid and native lazy loading.
+- **You don't need to go crazy in terms of componentization.** No need to create so many files. Instead, show us how components and files help you with separation of concerns where it makes sense, and how to keep the codebase sane relative to the size of the project.
+- **Redux skills.** The state management for this project is simple. Please don't use any third-party state management libraries like Redux or MobX.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Thanks for taking the time to take part in our frontend interview process.
 
-## Learn More
+Good luck with the coding challenge. We look forward to seeing your solutions!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---

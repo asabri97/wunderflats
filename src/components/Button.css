@@ -1,0 +1,17 @@
+/* src/components/Button.css */
+.button {
+    padding: 9.5px 30px;
+    font-size: 0.875rem;
+    background-color: var(--color-button-bg);
+    color: var(--color-button-text);
+    border: 1px solid var(--color-hover);
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: var(--color-hover);
+  }
+  

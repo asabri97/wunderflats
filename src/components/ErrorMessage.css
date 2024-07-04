@@ -1,0 +1,51 @@
+.error-message {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    background: var(--color-background);
+    z-index: 1000;
+    padding-top: 20px;
+  }
+  
+  .error-message .main-message {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    margin: 0 0 16px;
+  }
+  
+  .error-message .sub-message {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--color-secondary);
+    margin: 0 0 24px;
+  }
+  
+  .error-message button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: var(--color-button-bg);
+    color: var(--color-button-text);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .error-message button:hover {
+    background-color: var(--color-hover);
+  }
+  
+  @media (max-width: 768px) {
+    .error-message .main-message {
+      font-size: 1.5rem;
+    }
+  }
+  
