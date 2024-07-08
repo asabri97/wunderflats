@@ -4,7 +4,7 @@ import "./Button.css";
 
 function Button({ onClick, children }) {
   return (
-    <button className="button" onClick={onClick}>
+    <button className="button" onClick={onClick} aria-pressed="false">
       {children}
     </button>
   );

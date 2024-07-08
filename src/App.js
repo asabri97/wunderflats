@@ -60,19 +60,25 @@ function App() {
   return (
     <div className="App">
       <header className={`App-header ${headerVisible ? "" : "hidden"}`}>
-        <div className="header-content">
+        <div
+          className="header-content"
+          role="navigation"
+          aria-label="Main Navigation"
+        >
           <img
             src={`${process.env.PUBLIC_URL}/wunderflats_logo.svg`}
             alt="Wunderflats Logo"
             className="logo"
           />
-          <div className="profile-circle">A</div>
+          <div className="profile-circle" aria-label="User Profile">
+            A
+          </div>
         </div>
       </header>
       {loading && <Loading />}
       {error && <ErrorMessage onRetry={fetchListings} />}
       {!loading && !error && (
-        <div className="content">
+        <div className="content" role="main">
           <h1>Homes in Berlin</h1>
           <p>More than 200 homes found</p>
           <button onClick={fetchListings}>Reload results</button>

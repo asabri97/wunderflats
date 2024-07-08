@@ -6,8 +6,8 @@ function Listing({ listing }) {
   const { title, price, image } = listing;
 
   return (
-    <div className="listing">
-      <div className="image-container">
+    <div className="listing" role="article" aria-label="Listing">
+      <div className="image-container" role="img" aria-label={title.en}>
         <img src={image} alt={title.en} />
       </div>
       <div className="listing-details">
